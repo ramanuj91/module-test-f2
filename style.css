@@ -1,0 +1,98 @@
+*{
+    margin: 0px 0px;
+}
+
+table, th, td {
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 100vw;
+    padding-left: 15px;
+
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: auto;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    background-color: black;   
+}
+
+.search{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #CDCDCD;
+    height: 10px;    
+}
+
+.search input{
+    width: 92vw;
+    height: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    padding: 8px 10px;
+    background-color: #CDCDCD;
+}
+
+.table-data{
+    display: flex;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #CDCDCD;
+}
+
+table{
+    width: 100vw;
+}
+
+td{
+    text-align: left;
+    padding-left: 5px;
+    width: 100px;
+}
+
+th{
+    text-align: left;
+    padding-left: 5px;
+    width: 16vw;
+}
+
+.id{
+    width: 100px;
+}
+
+.name{
+    width: 50px;
+}
+
+.gender{
+    width: 40px;
+}
+
+.class, .marks, .passing{
+    width: 20px;
+}
+
+.email{
+    width: 100px;
+}
